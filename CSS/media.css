@@ -1,3 +1,4 @@
+/* xl  */
 @media (max-width:1199px){
 	.container-xl{
 		width: 960px;
@@ -8,25 +9,33 @@
 	.header-nav .nav-btn{
 		margin-left: auto;
 	}
-
 	.header-nav .toggle-btn{
 		display: block;
 		margin-left: 10px;
 	}
 }
-
+/* lg  */
 @media (max-width:991px){
 	.container-lg{
 		width: 768px;
 	}
+	.order-md-1{
+		order: 1;
+	}
+	.order-md-2{
+		order: 2;
+	}
+	.col-6{
+		width: 100%;
+	}
 }
-
+/* md  */
 @media (max-width:767px){
 	.container-md{
 		width: 576px;
 	}
 }
-
+/* sm  */
 @media (max-width:576px){
 	.container-sm{
 		width: 100%;
